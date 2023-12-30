@@ -1,0 +1,44 @@
+
+header {
+    display: block;
+    height: 60px;
+    color: var(--secondary-color);
+    box-shadow: 0px 5px 25px var(--shadow-color);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+    
+}
+header p {
+    margin: 6px;
+    width: 600px;
+}
+
+body {
+     font-family: 'Be Vietnam Pro', sans-serif;
+     --primary-color: #7c7cc2;
+     --secondary-color: #21207a;
+     --shadow-color: rgb(6, 165, 170);
+     background-image: url('./tree.jpg');
+
+}
+
+input{
+    border: solid 1px var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    width: 200px;
+}
+
+select {
+    border: solid 1px var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+   
+}
+

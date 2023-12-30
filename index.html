@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="курс валют, калькулятор валют, ялинка" />
+    <title>З Новим Роком!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header id="usd_eur"></header>
+    <section name="currencyCalculator">
+      <input
+        type="number"
+        placeholder="0.0"
+        step="0.01"
+        min="0"
+        id="firstInput"
+      />
+
+      <select id="firstSelect">
+        <option>UAH</option>
+      </select>
+      <!----->
+      =
+      <!----->
+      <input
+        type="number"
+        placeholder="0.0"
+        step="0.01"
+        min="0"
+        id="secondInput"
+      />
+      <select id="secondSelect">
+        <option>UAH</option>
+      </select>
+    </section>
+    <script src="./currency.js"></script>
+  </body>
+</html>
